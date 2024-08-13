@@ -1,1 +1,26 @@
-created test1.txt file
+import java.util.Scanner;
+public class Prime_or_Not {
+
+	public static void main(String[] args) {
+//number is prime or not
+		int n=10;
+		boolean prime=true;
+		for(int i=2;i<n;i++) {
+			if(n%i==0) {
+				prime=false;
+				break;
+				
+				
+			}
+			}
+		if(prime) {
+			System.out.println("It is a Prime Number ");
+			
+		}else {
+			System.out.println("Not Prime");
+		}
+
+	}
+
+}
+
